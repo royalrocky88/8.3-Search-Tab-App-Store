@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.tab-list {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.each-tab-btn {
+  font-size: 25px;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #7b8794;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+@media screen and (max-width: 767px) {
+  .each-tab-btn {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+.color-tab {
+  color: #2563eb;
+  border-bottom: 1px solid #2563eb;
+}
